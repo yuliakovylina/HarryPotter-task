@@ -1,0 +1,148 @@
+@font-face {
+    font-family: Inter;
+    font-weight: 400;
+    src: url("./fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 700;
+    src: url("./fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Inter;
+    font-weight: 800;
+    src: url("./fonts/Inter-ExtraBold.ttf") format("truetype");
+}
+
+h1,h2,h3,
+p, div, input, select {
+    margin:0;
+    padding:0;
+}
+
+input, label, select {
+    display: block;
+}
+
+.main {
+    font-family: Inter, Arial, sans-serif;
+    margin: 0 auto;
+    max-width: 768px;
+}
+
+.container {
+    background-color: #F5F5F5;
+    max-height: 1067px;
+    overflow: hidden;
+}
+
+.header {
+    padding: 64px 40px 40px;
+}
+
+.title {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px;
+    letter-spacing: -0.02em;
+}
+
+.subtitle {
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.02em;
+}
+
+.form {
+    display: flex;
+    margin-top: 48px;
+}
+
+.input-name {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #818182;
+}
+
+.input {
+    width: 445px;
+    height: 38px;
+    margin-right: 20px;
+    border: 1px solid #CED4DA;
+    color: #ABB5BE;
+
+}
+
+::-webkit-input-placeholder {
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB5BE;
+    position: absolute;
+    left: 15px;
+    top: 9px
+}
+
+.input-list {
+    width: 216px;
+    height: 40px;
+    margin-bottom: 0;
+    border: 1px solid #CED4DA;
+    font-size: 16px;
+    line-height: 21px;
+    color: #ABB5BE;
+    padding-left: 15px;
+}
+
+.input-list__option {
+    margin-left: 15px;
+    color: red;
+}
+
+.cards {
+    margin: 0 auto;
+    padding-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 686px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 192px auto;
+    max-width: 334px;
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.card__img {
+
+}
+
+.wrapper {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 169px;
+    padding: 24px;
+
+}
+
+.card__title {
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 24px;
+    color: #152536;
+}
+
+.card__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #152536;
+}
